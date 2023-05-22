@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../View/assets/css/styleLogin.css">
+    <title>Inscription</title>
+</head>
+
+<body class="container">
+
+
+<img src="../View/assets/img/pixouInscription.png" alt="" class="imgPixou" width="300px" >
+
+
+
+        <div class="responsiveFormInscription">
+            
+
+            <form id="connexion" class="formInsc">
+
+                <h1 class="titreInscription"> <a href="./login.php" class="imgFleche"><img src="./assets/Img/fleche-fine-contour-vers-la-gauche.png" alt="" width="20px"> </a>Inscription </h1>
+
+                <div class="input-group-date">
+                    <input type="date" name="date" autocomplete="off" class="input" required />
+                </div>
+
+                <div class="input-group">
+
+                    <input type="text" name="login" autocomplete="off" class="input" required />
+                    <label class="user-label"> Login </label>
+                </div>
+
+
+                <div class="input-group">
+                    <input type="password" name="password" autocomplete="off" class="input" required />
+                    <label class="user-label"> Mot de passe </label>
+                </div>
+
+
+
+                <div class="input-group">
+                    <input type="email" name="email" autocomplete="off" class="input" required />
+                    <label class="user-label"> Email </label>
+                </div>
+
+
+
+                <div class="input-group">
+                    <input type="text" name="nom" autocomplete="off" class="input" required />
+                    <label class="user-label"> Nom </label>
+                </div>
+
+
+
+
+                <div class="input-group">
+                    <input type="text" name="prenom" autocomplete="off" class="input" required />
+                    <label class="user-label"> Prenom </label>
+                </div>
+
+                <div class="input-group">
+                    <input type="checkbox" id="checkbox" autocomplete="off" class="input" required />
+                    <t>J'accepte les règles de confidentialité </t>
+                </div>
+
+
+
+
+                <button class="btn"> S'inscrire </button>
+
+            </form>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="assets/js/functions.js" onload="inscription()"></script>
+
+
+
+
+
+</body>
+
+</html>
