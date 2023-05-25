@@ -9,15 +9,13 @@
 </head>
 <body>
     
-<img src="../View/assets/img/pixouInscription.png" alt="" width="300px" class="imgPixou">
-
 
         <div class="responsiveFormMDP">
             
 
             <form method="post" class="bodyForm" action="../Controller/executeMdpOublie.php">
 
-                <h1 class="titreInscription"> <a href="./login.php" class="imgFleche"><img src="./assets/Img/fleche-fine-contour-vers-la-gauche.png" alt="" width="20px"> </a>Inscription </h1>
+                <h1 class="titreInscription"> <a href="./login.php" class="imgFleche"><img src="./assets/Img/fleche-fine-contour-vers-la-gauche.png" alt="" width="20px"> </a> Mot de passe oublié </h1>
                 <p class="textMDP"> Nous allons vous envoyer un nouveau mot de passe par mail </br> Nous vous conseillons de le changer ensuite dans votre panel profil. </p>
                
                 <div class="input-group">

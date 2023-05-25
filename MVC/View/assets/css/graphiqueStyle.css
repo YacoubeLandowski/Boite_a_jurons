@@ -1,30 +1,11 @@
 
-
-
-@media screen and (min-width:777px){
-    .nav-link {
-      padding:18px 0;
-      min-width:120px;
-    }
-    .navbar {
-      padding: 0
-    }
-
-  }
-
-@media screen and (max-width:777px){
-    footer {
-        position: sticky;
-        bottom: 0;
-    }
-    .graphique {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 40vh;
-    }
-
+body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(0,0,0,0.18671218487394958) 100%);
 }
+
+
+
 
 .graphique {
     display: flex;
@@ -34,11 +15,8 @@
 }
 
 
-
-
-
 #myChart {
-    height: 600px !important;
+    height: 500px !important;
     width : 100% !important;
 }
 
@@ -47,7 +25,12 @@ h1 {
 }
 
 footer {
-    position: fixed; bottom: 0;
+
+    bottom: 0;
     width : 100%;
     
+}
+
+.titreGraph {
+    margin-top: 2%;
 }

@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(0,0,0,0.18671218487394958) 100%);
 }
 
 .logo {

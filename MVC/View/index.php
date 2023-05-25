@@ -73,9 +73,7 @@ if (!est_connecte()) {
     <img src="./assets/img/boiteajurons.png" alt="La boite à jurons">
 </div>
 
-<div class="item">
-    <div class="loader-pulse"></div>
-</div>
+
 
 <!-- Jumbotron -->
 <div class="p-5 text-center ">

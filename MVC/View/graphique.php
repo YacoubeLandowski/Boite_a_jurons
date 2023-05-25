@@ -14,7 +14,7 @@
 </head>
 
 <body onload="adminLoad()">
-
+<div class="background">
     <?php session_start(); ?>
 
     <?php
@@ -84,7 +84,7 @@
         </div>
     <?php else: ?>
         <div class="container">
-            <h1>Le graphique des Jurons</h1>
+            <h1 class="titreGraph">Le graphique des Jurons</h1>
         </div>
     <?php endif ?>
 
@@ -150,7 +150,7 @@
         <?php endif ?>
     </div>
 
-
+</div>
 
 
 

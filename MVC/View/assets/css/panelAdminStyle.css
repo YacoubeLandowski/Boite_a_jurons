@@ -1,3 +1,8 @@
+body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(0,0,0,0.18671218487394958) 100%);
+}
+
 .contenu {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 0.1fr 0.4fr 0.1fr 1fr 0.1fr 1fr 0.1fr;
@@ -86,7 +91,7 @@ hr.style-two {
                 ". tab1 tab1 tab1 ."
                 ". titreTab2 titreTab2 titreTab2 ."
                 ". tab2 tab2 tab2 .";
-                "footer footer footer footer footer";
+            
     }
     .tableau{
         width: 579px !important;
